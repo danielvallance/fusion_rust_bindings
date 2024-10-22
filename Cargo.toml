@@ -1,0 +1,11 @@
+[package]
+name = "fusion_rust_bindings"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+bindgen = {version = "0.70.1", features = ["experimental"] }
+cmake = "0.1.51"
+
+[dependencies]
+cty = "0.2.2"
